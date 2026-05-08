@@ -1,0 +1,64 @@
+:root {
+    --azul: #628395;
+    --verde-apagado: #8BBC9C;
+    --menta:#7FEFBD;
+    --amarillo: #DBAD6A;
+    --arena: #CF995F;
+    --rojo: #580C1F;
+}
+
+ #logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+
+}
+
+header{
+    display: flex;
+    background-color: var(--verde-apagado);
+}
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+
+}
+
+.header-info{
+    display: flex;   
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.header-info li a{
+    display: flex;
+    padding: 20px;
+    color: var(--rojo);
+    font-size: 20px;
+}
+
+
+
+body{
+    background-color: var(--azul);
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .header-info li a{
+        font-size: 10px;
+    }   
+    
+     #logo{
+        width: 40%;
+        height: auto;
+    }
+
+}
