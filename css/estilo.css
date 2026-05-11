@@ -129,6 +129,48 @@ feature-card h3{
     margin: 0 auto;
 }
 
+.instruciones{
+    padding: 80px 20px;
+
+}
+
+.instructions h2{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--rojo);
+    margin-bottom: 40px;
+}
+
+.instructions-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.step-number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--arena);
+    min-width: 40px;
+}
+
+.step p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: var(--menta);
+}
+
 
 
 
