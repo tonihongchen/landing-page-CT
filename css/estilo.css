@@ -62,6 +62,11 @@ body{
         min-width: 24px;
         height: auto;
     }
+    .instructions h2{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--rojo);
+    margin: 10%;    
+    }
 }
 
  .hero, h1, h3{
@@ -125,20 +130,20 @@ feature-card h3{
     max-width: 300px;
     height: auto;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
     justify-content: center;
     margin: 0 auto;
 }
 
 .instruciones{
     padding: 80px 20px;
-
+    
 }
 
 .instructions h2{
     font-family: 'Montserrat', sans-serif;
     color: var(--rojo);
-    margin-bottom: 40px;
+    margin: 40px;    
 }
 
 .instructions-content{
@@ -154,7 +159,7 @@ feature-card h3{
     align-items: center;
     gap: 20px;
     text-align: left;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: var(--verde-apagado);
     padding: 20px;
     border-radius: 12px;
 }
@@ -169,7 +174,7 @@ feature-card h3{
 .step p{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    color: var(--menta);
+    color: var(--rojo);
 }
 
 .form-section{
