@@ -8,9 +8,9 @@
 }
 
  #logo{
-    width: 64px;
+    width: 10%;
     height: auto;
-    padding: 10%;
+    padding: 10px;
 }
 
 header{
@@ -47,7 +47,6 @@ header{
 body{
     background-color: var(--azul);
     margin: 0;
-    text-align: center;
 }
 
 
@@ -58,7 +57,7 @@ body{
     }   
     
      #logo{
-        width: 70%;
+        width: 100%;
         min-width: 24px;
         height: auto;
     }
@@ -66,6 +65,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: var(--rojo);
     margin: 10%;    
+    }
+    .pro-tips{
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 682.50px){
+    #logo{
+        width:60%;
+        height: auto;
     }
 }
 
@@ -141,9 +150,11 @@ feature-card h3{
 }
 
 .instructions h2{
+    display:flex;
     font-family: 'Montserrat', sans-serif;
     color: var(--rojo);
-    margin: 40px;    
+    margin: 50px;    
+    justify-content: center;
 }
 
 .instructions-content{
@@ -151,8 +162,8 @@ feature-card h3{
     flex-direction: column;
     gap: 24px;
     max-width: 600px;
-    margin: 0 auto;
-}
+    margin: 40px auto;
+    }
 
 .step{
     display: flex;
@@ -162,6 +173,7 @@ feature-card h3{
     background-color: var(--verde-apagado);
     padding: 20px;
     border-radius: 12px;
+    
 }
 
 .step-number{
@@ -177,10 +189,38 @@ feature-card h3{
     color: var(--rojo);
 }
 
+.pro-tips{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.pro-tips h2{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--rojo);
+    margin: 50px;
+}
+
+.tips-grid{
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tip-card{
+    background-color: var(--menta);
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+
+
+
 .form-section{
     max-width: 600px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 80px auto;
 }
 
 .contact-form{
@@ -211,7 +251,12 @@ feature-card h3{
     border-radius: 8px;
 }
 
-
+footer{
+    display: flex;
+    background-color: var(--verde-apagado); 
+    justify-content: center;
+    padding: 20px;
+}
 
 
 /*.menu{
