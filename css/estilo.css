@@ -7,10 +7,30 @@
     --rojo: #580C1F;
 }
 
+@keyframes pulseLogo {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); 
+        filter: drop-shadow(0 0 10px var(--menta));
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#logo:hover {
+    animation: none;
+    transform: rotate(5deg) scale(1.1);
+}
+
  #logo{
     width: 10%;
     height: auto;
     padding: 10px;
+    transition: all 0.3s ease;
+    animation: pulseLogo 3s infinite ease-in-out;
 }
 
 header{
@@ -257,6 +277,8 @@ footer{
     justify-content: center;
     padding: 20px;
 }
+
+
 
 
 /*.menu{
